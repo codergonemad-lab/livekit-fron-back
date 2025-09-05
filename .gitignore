@@ -1,0 +1,83 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Node.js (Frontend)
+livekit-frontend/node_modules/
+livekit-frontend/npm-debug.log*
+livekit-frontend/yarn-debug.log*
+livekit-frontend/yarn-error.log*
+livekit-frontend/build/
+livekit-frontend/.env.local
+livekit-frontend/.env.development.local
+livekit-frontend/.env.test.local
+livekit-frontend/.env.production.local
+
+# LiveKit HTML test files (if you want to exclude them)
+livekit_demo.html
+livekit_demo_simple.html
+livekit_test.html
+
+# Alembic
+alembic.ini
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
